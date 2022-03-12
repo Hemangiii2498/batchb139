@@ -1,1 +1,37 @@
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+git init
+Hemangi@DESKTOP-BDKNLR6 MINGW64 ~/Desktop/New folder (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Hemangi/Desktop/New folder/.git/
+
+Hemangi@DESKTOP-BDKNLR6 MINGW64 ~/Desktop/New folder (main)
+$ git remote add origin "https://github.com/Hemangiii2498/batchb139.git"
+error: remote origin already exists.
+
+Hemangi@DESKTOP-BDKNLR6 MINGW64 ~/Desktop/New folder (main)
+$ git pull origin main
+From https://github.com/Hemangiii2498/batchb139
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Hemangi@DESKTOP-BDKNLR6 MINGW64 ~/Desktop/New folder (main)
+$ git add Shripad
+
+Hemangi@DESKTOP-BDKNLR6 MINGW64 ~/Desktop/New folder (main)
+$ git commit -m "commit"
+[main 790810c] commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Shripad/SSS.txt
+
+Hemangi@DESKTOP-BDKNLR6 MINGW64 ~/Desktop/New folder (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 327 bytes | 46.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Hemangiii2498/batchb139.git
+   9549f5f..790810c  main -> main
+
+Hemangi@DESKTOP-BDKNLR6 MINGW64 ~/Desktop/New folder (main)
+$
